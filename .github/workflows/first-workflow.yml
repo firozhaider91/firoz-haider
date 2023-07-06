@@ -7,5 +7,5 @@ jobs:
       - name: Welcome
         run: echo "Welcome" 
       - name: Good bye
-        run: "Astalavista"
+        run: echo "Astalavista"
       
