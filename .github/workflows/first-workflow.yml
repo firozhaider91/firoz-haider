@@ -4,8 +4,9 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Welcome
-        run: echo "Welcome" 
-      - name: Good bye
-        run: echo "Astalavista"
+      - name: Execute multiline shell
+        run: |
+            echo "Hi there"
+            echo "Its multiline execution"
+            echo "completed"
       
