@@ -1,0 +1,11 @@
+name: first-workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome
+        run: echo "Welcome" 
+      - name: Good bye
+        run: "Astalavista"
+      
